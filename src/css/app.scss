@@ -1,1 +1,87 @@
 // app global css in SCSS form
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+span {
+  margin: 0;
+}
+
+.w-full {
+  width: 100% !important;
+
+  > button {
+    width: 100%;
+  }
+}
+
+.nowrap {
+  flex-wrap: nowrap;
+}
+
+.label {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 30px;
+  color: #969aa0;
+  margin-bottom: 10px;
+}
+
+.heading {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #0b0b0c;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.mr-1 {
+  margin-right: 5px;
+}
+
+.mr-2 {
+  margin-right: 10px;
+}
+
+.ml-1 {
+  margin-left: 5px;
+}
+
+.ml-2 {
+  margin-left: 10px;
+}
+
+.mb-1 {
+  margin-bottom: 5px;
+}
+
+.mb-2 {
+  margin-bottom: 10px;
+}
+
+.mt-1 {
+  margin-top: 5px;
+}
+
+.mt-2 {
+  margin-top: 10px !important;
+}
